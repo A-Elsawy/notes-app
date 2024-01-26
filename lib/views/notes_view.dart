@@ -11,7 +11,7 @@ class NotesView extends StatelessWidget {
       // ------------------------
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.black45,
         child: const Icon(Icons.add),
       ),
     );
