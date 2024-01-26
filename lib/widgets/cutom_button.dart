@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  const CustomButton({
-    super.key,
-  });
+  final String text;
+  const CustomButton({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -16,10 +15,10 @@ class CustomButton extends StatelessWidget {
           color: Colors.white54,
           borderRadius: BorderRadius.circular(10),
         ),
-        child: const Center(
+        child: Center(
           child: Text(
-            'Click',
-            style: TextStyle(
+            text,
+            style: const TextStyle(
               color: Colors.black87,
               fontSize: 16,
             ),
