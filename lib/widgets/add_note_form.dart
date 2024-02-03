@@ -58,7 +58,8 @@ class _AddNoteFormState extends State<AddNoteForm> {
                     NoteModel noteModel = NoteModel(
                       title: title!,
                       subTitle: subTitle!,
-                      date: DateTime.now().toString(),
+                      date:
+                          '${DateTime.now().day} - ${DateTime.now().month} - ${DateTime.now().year}',
                       color: Colors.amber.value,
                     );
 
