@@ -40,7 +40,9 @@ class NoteItem extends StatelessWidget {
               subtitleTextStyle:
                   TextStyle(fontSize: 18, color: Colors.black.withOpacity(0.6)),
               trailing: IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  note.delete();
+                },
                 iconSize: 25,
                 icon: Icon(
                   FontAwesomeIcons.trash,
