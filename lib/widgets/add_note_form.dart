@@ -6,9 +6,7 @@ import 'package:notes_app/widgets/custom_text_field.dart';
 import 'package:notes_app/widgets/cutom_button.dart';
 
 class AddNoteForm extends StatefulWidget {
-  const AddNoteForm({
-    super.key,
-  });
+  const AddNoteForm({super.key});
 
   @override
   State<AddNoteForm> createState() => _AddNoteFormState();
